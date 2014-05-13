@@ -1,0 +1,67 @@
+@import "/fonts/questrial-web-font/stylesheet.css";
+
+body {
+    position: absolute;
+    top: 50%;
+    height: 0;
+    left: 10%;
+    right: 10%;
+    font: 16px/0 questrialregular, sans-serif;
+    background-color: #777;
+    color: #888;
+    white-space: nowrap;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+    color: #777;
+}
+
+a:hover {
+    color: #888;
+}
+
+.title,
+.e {
+    display: inline-block;
+    height: .2ex;
+    line-height: 0;
+    font-weight: normal;
+    -webkit-transition: -webkit-transform 150ms;
+    -moz-transition: -moz-transform 150ms;
+    -ms-transition: -ms-transform 150ms;
+    -o-transition: -o-transform 150ms;
+    transition: transform 150ms;
+}
+
+.title {
+    font-size: 220px;
+}
+
+.e:hover {
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+/*
+.e {
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+.title:hover {
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+*/
